@@ -61,7 +61,7 @@ xBackground
 -------------------------------- */
 body {
   /* this is the page background */
-  background-color: #ffffff;
+  background-color: #f8f8ff;
 }
 
 /* -------------------------------- 
@@ -73,7 +73,7 @@ xPatterns
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
   border: 1px solid #ccff00;
   border-radius: 3px;
-  background: #ffffff;
+  background: #f8f8ff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   padding: 6px;
 }
@@ -103,7 +103,7 @@ header {
   background: #19191a;
 }
 .cd-main-nav li a {
-  color: #ffffff;
+  color: #f8f8ff;
   border-color: #262627;
 }
 @media only screen and (min-width: 1024px) {
@@ -111,30 +111,30 @@ header {
     color: #7d7d82;
   }
   .cd-main-nav li a.selected {
-    color: #ffffff;
+    color: #f8f8ff;
     box-shadow: 0 2px 0 #f374e0;
   }
   .cd-main-nav li a:hover {
-    color: #ffffff;
+    color: #f8f8ff;
   }
 }
 
 .cd-nav-trigger span {
   /* hamburger menu */
-  background-color: #ffffff;
+  background-color: #f8f8ff;
 }
 .cd-nav-trigger span::before, .cd-nav-trigger span::after {
   /* upper and lower lines */
-  background-color: #ffffff;
+  background-color: #f8f8ff;
 }
 
 .nav-is-visible .cd-nav-trigger span {
   /* hide line in the center on mobile when nav is visible */
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(248, 248, 255, 0);
 }
 .nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
   /* preserve visibility of upper and lower lines - close icon */
-  background-color: white;
+  background-color: ghostwhite;
 }
 
 .cd-download {
@@ -147,7 +147,7 @@ header {
 .cd-download span {
   /* tooltip */
   background: #f374e0;
-  color: #ffffff;
+  color: #f8f8ff;
 }
 .cd-download span::before {
   /* right arrow color */
@@ -165,7 +165,7 @@ main > h1 {
 @media only screen and (min-width: 1600px) {
   main > h1 {
     /* title goes into the header on big devices */
-    color: #ffffff;
+    color: #f8f8ff;
   }
 }
 
@@ -241,7 +241,7 @@ xButtons
   border-radius: 0.25em;
   font-size: 1.4rem;
   font-family: "Orbitron", sans-serif;
-  color: #ffffff;
+  color: #f8f8ff;
   padding: 0.6em 2.2em;
   cursor: pointer;
   background: #f374e0;
@@ -270,7 +270,7 @@ xButtons
   box-shadow: inset 0 0 0 1px #f374e0;
 }
 .no-touch .btn.btn-outline:hover {
-  color: #ffffff;
+  color: #f8f8ff;
   background: #f374e0;
 }
 @media only screen and (min-width: 768px) {
@@ -304,7 +304,7 @@ input[type=text],
 select {
   border: 1px solid #ccff00;
   border-radius: 0.25em;
-  background: #ffffff;
+  background: #f8f8ff;
 }
 input[type=text]:focus,
 select:focus {
@@ -423,6 +423,18 @@ select {
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
+}
+
+.cd-navigation .cd-box {
+  background-color: #19191a;
+}
+.cd-navigation h3 {
+  font-family: "Orbitron", sans-serif;
+  color: #f8f8ff;
+}
+.cd-navigation li a {
+  font-family: "Yellowtail", serif;
+  color: #f374e0;
 }
 
 /* -------------------------------- 
@@ -932,13 +944,13 @@ section:nth-of-type(10) h2::before {
   background: #b8e600;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch {
-  background: #ffffff;
+  background: #f8f8ff;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch::before {
   background: white;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
-  background: #f2f2f2;
+  background: #dfdfff;
 }
 @media only screen and (min-width: 768px) {
   .cd-colors li {
